@@ -46,69 +46,97 @@
  <p>
     Also Weather SDK provides a scope of methods to allow a user to work with different keys:
  </p>
-<div><code>weather()</code> - returns data about weather for the city in JSON format which was found by searching for the city name. 
-<p><code>{
+<div>
+
+``weather()`` - returns data about weather for the city in JSON format which was found by searching for the city name.
+```json 
+{
     "weather": {
         "main": "Clouds",
         "description": "scattered clouds"
     }
-}</code></p>
+}
+```
 </div>
 
-<div><code>temperature()</code> - returns data about temperature for the current city in JSON format 
-<p><code>{
+<div>
+
+``temperature()`` - returns data about temperature for the current city in JSON format
+```json 
+{
     "temperature": {
         "temp": 269.6,
         "feels_like": 267.57
     }
-}</code></p>
+}
+```
 </div>
 <div>
 
-<code>visibility()</code> - returns data about visibility for the current city in JSON format 
-
-<code>{ "visibility": 10000 }</code>
+``visibility()`` - returns data about visibility for the current city in JSON format 
+```json
+{ 
+    "visibility": 10000 
+}
+```
 </div>
 <div>
-<code>wind()</code> - returns data about wind for the current city in JSON format 
-<p><code>{
+
+``wind()`` - returns data about wind for the current city in JSON format 
+```json
+{
     "wind": {
         "speed": 1.38
     } 
-}</code></p>
+}
+```
 </div>
 <div>
-<code>timezone()</code> - returns data about wind for the current city in JSON format
-<p><code>{
+
+``timezone()`` - returns data about wind for the current city in JSON format
+```json
+{
     "timezone": 3600
-}</code></p>
+}
+```
 </div>
 <div>
-<code>sys()</code> - returns data about sunrise and sunset for the current city in JSON format
-<p><code>{
+
+``sys()`` - returns data about sunrise and sunset for the current city in JSON format
+```json
+{
     "sys": {
         "sunrise": 1675751262,
         "sunset": 1675787560
     }
-}</code></p>
+}
+```
 </div>
 <div>
-<code>name()</code> - returns a cityname of the current city in JSON format
-<p><code>{
+
+``name()`` - returns a cityname of the current city in JSON format
+```json
+{
     "name": "Zocca",
-}</code></p>
+}
+```
 </div>
 <div>
-<code>datetime()</code> - returns date and time of the customer request in JSON format
-<p><code>{
+
+``datetime()`` - returns date and time of the customer request in JSON format
+```json
+{
     "datetime": 1675744800,
-}</code></p>
+}
+```
 </div>
 <div>
-<code>delete(cityname)</code> - removes data of a city from buffer
+
+``delete(cityname)`` - removes data of a city from buffer
 </div>
 <div>
-<code>clean()</code> - removes all data from buffer.
+
+``clean()`` - removes all data from buffer.
 </div>
     
 </p>

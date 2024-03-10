@@ -93,7 +93,7 @@
 </div>
 <div>
 
-``timezone()`` - returns data about wind for the current city in JSON format
+``timezone()`` - returns data about timezone for the current city in JSON format
 ```json
 {
     "timezone": 3600
@@ -155,6 +155,9 @@
 </h2>
 
 `` pip install wsdk ``
+
+<a href="https://pypi.org/project/wsdk/0.1/">Weather SDK (PyPi)</a>
+
 <h2>
 <a name="UsageExample"></a>Usage example
 </h2>

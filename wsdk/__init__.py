@@ -1,0 +1,1 @@
+from .wsdk import Weather

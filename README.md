@@ -11,8 +11,8 @@
  ```json
 {
    "weather": {
-       "main": "Clouds",
-       "description": "scattered clouds",
+     "main": "Clouds",
+     "description": "scattered clouds",
    },
    "temperature": {
      "temp": 269.6,
@@ -32,7 +32,7 @@
  }
  ```
  <p>
-    The user provides API key for OpenWeatherAPI on the object initialization: <code>weather = Weather("937kdh937dho39kdbwwhy45")</code>
+    The user provides API key for OpenWeatherAPI on the object initialization: <code>weather = Weather(API_KEY)</code>
  </p>
  <p>
     The user should provide an name of city to 'getWeather' method <code>weather.getWeather("Zocca")</code> to get an information about the weather at the current moment. Weather SDK returns information about the first city which was found by searching for the city name. (Weather SDK stores weather information about the requested cities into a buffer and if it is relevant, return the stored value (Weather is considered to be up to date if less than 10 minutes have passed))
